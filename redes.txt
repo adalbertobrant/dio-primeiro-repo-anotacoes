@@ -1,0 +1,53 @@
+REDES
+
+ WAN - wide area network
+ 
+ MAN - redes em uma cidade
+
+ lan - redes menores em uma casa , ou em um prédio
+
+ Comunicação é feita por protocolos
+
+  PROTOCOLOS 
+
+  IP - números que identificam o computador na casa e na internet
+  
+  ICMP - internet control message protocol 
+       Mensagens de controle entre os nós, manda mensagem para um host para ver se esta ativo ou não.
+
+  DNS - domain name server - mostra a tabela e os caminhos 
+
+  INTERFACE DE REDES
+
+  softwar ou hardware que faz a comunicação em uma rede de computadores
+  as interfaces de rede no linux estão localizadas na pasta /dev e a maioria é criada dinamicamente pelos softwares quando são requisitadas.
+  A interface LOOPBACK permite que o computador faça conexões com ele mesmo podendo testar vários programas de rede sem interferir na rede da internet por exemplo.
+ o ip padrão é o 127.0.0.1 
+ 
+  COMANDOS 
+
+  ifconfig - saber o ip da máquina , o ifconfig faz parte do pacote net-tools
+  hostname - mostra o endereço na rede
+             hostaname - mostra o nome do computador na rede 
+             hostname -i - mostra o endereço ip da rede local (loopback)
+			 hostname -I - mostra o endereço da rede ip da internet
+
+  who - mostra o usuário e a data que esta logado
+  
+  whoami - mostra o nome do usuário
+  
+  ping - envia uma mensagem e recebe o pong da mensagem
+       ping www.google.com -w 4 - manda o ping para o google de 4 pacotes
+ 
+  dig - informações sobre o dns 
+      dig www.google.com - mostra informações do google
+
+  traceroute - traçar a rota da rede local até um local na internet, mostrando o caminho (nós) até chegar ao destino
+            traceroute www.google.com
+
+  whois - mostra informações sobre um local de rede, como donos, etc
+       whois www.google.com
+            
+  finger - mostra informações do usuário que esta logado no pc.
+
+  
