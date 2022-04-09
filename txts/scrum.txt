@@ -1,0 +1,65 @@
+Scrum - 
+
+Desafios no desenvolvimento de algum produto parte pela união de várias pessoas ou de uma pessoa só.
+
+Processo de desenvolvimento tradicional 
+
+- ideia inicial
+- pensar sobre e desenhar a arquitetura inicial
+- desenvolver o produto
+- testar o produto
+- implantar ou utilizar o produto em definitivo.
+
+No modelo tradicional de desenvolvimento, o mesmo é feito por etapas, sendo necessária a conclusão da etapa anterior para ir para o próximo nível. Esse tipo de desenvolvimento é conhecido como Waterfall ou modelo em cascata.
+Exemplo:
+--- requirementos (criação de todos os requirementos do projeto, criação da documentação) => desenho(design) => implementação => verificação => manutenção
+
+Gestão Ágil de criação
+
+- A necessidade ou problema é particionada em porções menores.
+- Cada "subproblema" é resolvida , testada e implementada
+
+- Todo o ciclo possui interação do usuário final do sistema bem como dos desenvolvedores, agilizando e melhorando a comunicação com as partes envolvidas no desenvolvimento.
+
+Estrutura básica para resolução de um sub problema
+- requisitos => análise => construção => testes => liberação 
+- Essa atividade leva em torno de 30 dias.
+
+PILARES DO SCRUM 
+
+- transparência 
+- adptação
+- expressão
+
+Papéis e Responsabilidades time Scrum
+
+PO - Product Owner
+SM - Scrum Master
+dev - Desenvolvedores
+
+Cerimonias do Scrum
+
+sprint - principal evento do scrum 
+    planejamentos da sprint pode levar até 8horas em uma sprint de 30 dias
+    O que fazer => 4 horas
+    Como fazer => 4 horas
+ No como fazer pode-se utilizar vários tipos de ferramentas entre elas a planning poker que gera uma partimentação das funcionalidades e seu grau de dificuldade.
+
+Daily Meeting
+ - reuniões rápidas stand-up meeting , fala-se o que se fez no dia passado, o que esta fazendo e o que vai fazer.
+
+Revisão da Sprint
+ 
+ demora 4 horas o time dev apresenta para o PO . Se o PO aceitar vai para a produção
+
+Restrospectiva da Sprint
+
+Reuniao da equipe para lições aprendidas, deve-se ter transparência
+
+   Diferença entre projetos tradicionais x projetos Ágil
+
+O produto do projeto tradicional já tem tudo o projeto Ágil tem o produto mínimo viável ou seja apenas o que o cliente vai usar.
+
+projeto ágil dá maior valor ao cliente durante todo o processo de desenvolvimento.
+
+		 
