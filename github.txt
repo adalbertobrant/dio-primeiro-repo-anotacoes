@@ -1,0 +1,6 @@
+1 - criar repositório github
+2 - dio-desafio-github-primeiro-repo
+3 - colocar o description
+4 - colocar o README.md
+5 - clonar na máquina do github para a máquina local usando o git clone e endereço
+6 -  
