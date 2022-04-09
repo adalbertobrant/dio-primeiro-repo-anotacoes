@@ -1,0 +1,92 @@
+Gerenciadores de Pacotes
+
+ Sistemas que gerenciam a instalação dos pacotes.
+
+O mais famoso é o apt, faz a instalação e atualização do pacote
+
+Instalação
+sudo apt install nmap
+
+Quando se faz isso vemos os arquivos e pacotes que necessitam para instalar o nmap, o apt vai instalando e organizando esses pacotes em cada diretório específico
+
+Remoção de pacote
+
+sudo apt remove nmap
+
+Esse comando remove o pacote do S.O do computador.
+
+Atualização do Sistema Operacional
+sudo apt update && apt upgrade
+
+Faz a atualização do sistema
+
+Sites de Pacotes
+
+pkgs.org
+rpm.pbone.net
+
+São sites que fornecem pacotes e todas as distribuições que tem esses pacotes em diferentes distribuições
+
+Instalação de pacotes .deb
+
+Usa-se o dpkg que serve para instalar ou remover pacotes do tipo deb
+
+sudo dpkg -i => instala pacote deb
+sudo dpkg -i pacote.deb
+
+Descrição do pacote
+
+sudo dpkg -I pacote.deb
+Dá uma descrição do pacote, co as dependências, versão, etc
+
+Remoção do Pacote
+
+sudo dpkg -r nmap
+A remoção é sempre com o nome do pacote, caso não saiba fazer o dpkg -I para saber o nome correto do pacote
+
+Introdução ao Fedora
+
+Outro sistema operacional baseado no red hat linux
+Para baixar deve-se acessar o site getfedora.org e utilizar o download da versão workstation
+
+Instalação de Pacotes RPM
+
+rpm -ivh pacote.rpm
+
+Faz a instalação de pacotes no fedora
+Se tiver problema na instalação de algum pacote pode se usar:
+rpm -ivh --nodeps pacote.rpm
+
+Atualização do pacote
+
+rpm -U pacote.rpm
+
+Remoção do pacote 
+
+rpm -e pacote.rpm
+
+Instalação via Yum
+
+yum install pacote
+
+o yum é semelhante ao apt
+
+Atualização do pacote Yum
+
+yum update nome_pacote
+
+faz a atualização do pacote
+
+Remoção de um pacote
+
+yum remove nome_pacote
+
+faz a remoção de um pacote
+
+
+
+
+
+
+
+
